@@ -175,7 +175,7 @@ body {
 
 /* Contact */
 .map {
-  grid-column: 2;
+  grid-column: 1 / 2;
 }
 
 .data {
@@ -231,6 +231,9 @@ body {
   }
   .menu {
     margin-top: 0px;
+  }
+  .map iframe{
+    max-width: 100%;
   }
   .copy {
     margin-bottom: 0px;
