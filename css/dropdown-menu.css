@@ -26,7 +26,7 @@
 .dropdown-menu {
   position: absolute;
   top: 38px;
-  background: #E54;
+  background: #EDF4F3;
   border: 2px solid #333;
   z-index: 200;
 }
@@ -40,9 +40,9 @@
   height: 0px;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #E54;
+  border-bottom: 10px solid #EDF4F3;
 }
 
 .dropdown-menu li a:hover {
-  color: white;
+  color: #3E211D;
 }
