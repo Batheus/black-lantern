@@ -7,9 +7,9 @@ export default function initAnimacaoScroll() {
       const sectionTop = section.getBoundingClientRect().top;
       const isSectionVisible = (sectionTop - windowMetade) < 0;
       if (isSectionVisible) {
-        section.classList.add('ativo');
-      } else if (section.classList.contains('ativo')) {
-        section.classList.remove('ativo');
+        section.classList.add('active');
+      } else if (section.classList.contains('active')) {
+        section.classList.remove('active');
       }
     });
   }
