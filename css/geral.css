@@ -14,7 +14,7 @@ ul {
 }
 
 body {
-  background: #faf6ed;
+  background: #EBEEF5;
   color: #222;
   -webkit-font-smoothing: antialiased;
 }
@@ -30,7 +30,7 @@ body {
   grid-column: 3 / 5;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background: #FB5;
+  background: #BD8E78;
 }
 
 .menu ul {
@@ -101,7 +101,7 @@ body {
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-bottom: 1rem;
-  color: #E54;
+  color: #290000;
 }
 
 .jukebox h2::before {
@@ -110,7 +110,7 @@ body {
   width: 40px;
   height: 10px;
   margin-right: 10px;
-  background: #FB5;
+  background: #BD8E78;
 }
 
 .jukebox-list {
@@ -128,13 +128,13 @@ body {
 }
 
 .jukebox-list::-webkit-scrollbar-thumb {
-  background: #FB5;
-  border-left: 4px solid #faf6ed;
-  border-right: 4px solid #faf6ed;
+  background: #BD8E78;
+  border-left: 4px solid #EBEEF5;
+  border-right: 4px solid #EBEEF5;
 }
 
 .jukebox-list::-webkit-scrollbar-track {
-  background: #faf6ed;
+  background: #EBEEF5;
 }
 
 .jukebox-songs {
@@ -155,7 +155,7 @@ body {
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: .5rem;
-  color: #E54;
+  color: #290000;
 }
 
 .faq-list dt::before {
@@ -164,7 +164,7 @@ body {
   width: 20px;
   height: 10px;
   margin-right: 10px;
-  background: #FB5;
+  background: #BD8E78;
 }
 
 .faq-list dd {
@@ -193,14 +193,14 @@ body {
   width: 20px;
   height: 10px;
   margin-right: 10px;
-  background: #FB5;
+  background: #BD8E78;
 }
 
 /* Footer */
 .copy {
   grid-column: 3/5;
   margin-bottom: 2rem;
-  background: #FB5;
+  background: #BD8E78;
 }
 
 .copy p {
@@ -324,7 +324,7 @@ body {
   content: '';
   width: 6px;
   height: 6px;
-  background: #E54;
+  background: #290000;
   border-radius: 50%;
   margin-left: 4px;
   border: 2px solid #000;
@@ -334,9 +334,10 @@ body {
   background: #3F4;
 }
 
-.btc-preco {
-  background: #3F4;
+.btc-price {
+  background: #290000;
   padding: .2rem .5rem;
   font-weight: bold;
   border-radius: 2px;  
+  color: #EDF4F3;
 }
