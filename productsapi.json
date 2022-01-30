@@ -1,18 +1,18 @@
 [
   {
-    "specie": "Heineken",
+    "brand": "Heineken",
     "total": 4874
   },
   {
-    "specie": "Corona",
+    "brand": "Corona",
     "total": 5374
   },
   {
-    "specie": "Guinness",
+    "brand": "Guinness",
     "total": 12340
   },
   {
-    "specie": "Budweiser",
+    "brand": "Budweiser",
     "total": 230
   }
 ]

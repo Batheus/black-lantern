@@ -6,7 +6,7 @@ import Modal from './modules/modal.js';
 import initDropdownMenu from './modules/dropdown-menu.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
-import initFetchAnimais from './modules/fetch-animais.js';
+import fetchProducts from './modules/fetch-products.js';
 import initFetchBitcoin from './modules/fetch-bitcoin.js';
 
 const smoothScroll = new SmoothScroll('[data-menu="smooth"] a[href^="#"]');
@@ -26,5 +26,5 @@ modal.init();
 initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
-initFetchAnimais();
+fetchProducts('../../productsapi.json', '.numbers-grid');
 initFetchBitcoin();
