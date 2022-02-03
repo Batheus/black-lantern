@@ -5,7 +5,7 @@ import TabNav from './modules/tabnav.js';
 import Modal from './modules/modal.js';
 import DropdownMenu from './modules/dropdown-menu.js';
 import MenuMobile from './modules/menu-mobile.js';
-import initFuncionamento from './modules/funcionamento.js';
+import OpeningHours from './modules/opening-hours.js';
 import fetchProducts from './modules/fetch-products.js';
 import fetchBitcoin from './modules/fetch-bitcoin.js';
 
@@ -30,6 +30,9 @@ dropdownMenu.init();
 const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
 menuMobile.init();
 
-initFuncionamento();
-fetchProducts('../../productsapi.json', '.numbers-grid');
+const businessHours = new OpeningHours('[data-dayweek]', 'openpub');
+businessHours.init();
+
+fetchProducts('./productsapi.json', '.numbers-grid');
+
 fetchBitcoin('https://blockchain.info/ticker', '.btc-price');
