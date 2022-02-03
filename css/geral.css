@@ -319,7 +319,7 @@ body {
   transform: translate3d(0, 0, 0);
 }
 
-[data-semana]::after {
+[data-dayweek]::after {
   display: inline-block;
   content: '';
   width: 6px;
@@ -330,7 +330,7 @@ body {
   border: 2px solid #000;
 }
 
-[data-semana].aberto::after {
+[data-dayweek].openpub::after {
   background: #3F4;
 }
 
