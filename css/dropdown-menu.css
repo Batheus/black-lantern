@@ -43,6 +43,18 @@
   border-bottom: 10px solid #EDF4F3;
 }
 
+.dropdown-menu li a {
+  inline-size: 125px;
+  overflow-wrap: break-word;
+}
+
 .dropdown-menu li a:hover {
   color: #3E211D;
+}
+
+@media(max-width: 700px) {
+  [data-dropdown] .dropdown-menu {
+    display: block;
+    animation: show-up .3s forwards;
+  }
 }
